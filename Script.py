@@ -1,6 +1,6 @@
 class script(object):
     START_TXT = """<b>Hello Nanba {}👋
-My Name Is <a href=https://t.me/{}>{}</a>, I Can Provide Movies,\n\n👨‍💻 Developer : <a href='https://telegram.dog/I_m_Kristy'>✯°• Iᴍ Kʀɪsᴛʏ கிறிஸ்டி Via @KaipullaVadiveluOffl  •°✯ « Tᴇᴀᴍ Kᴀɪᴘᴜʟʟᴀ​ »</a></b>"""
+My Name Is <a href=https://t.me/{}>{}</a>, I Can Provide Movies,\n\n👨‍💻 Developer : <a href='https://telegram.dog/TAMILAN_MK</a></b>"""
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
@@ -12,7 +12,7 @@ My Name Is <a href=https://t.me/{}>{}</a>, I Can Provide Movies,\n\n👨‍💻 
 ✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v1.0.1 [ 𝙱𝙴𝚃𝙰 ]"""
     SOURCE_TXT = """<b>NOTE:</b>
 - Eva Maria is a open source project. 
-- Source - https://github.com/EvamariaTG/EvaMaria  
+- Source - https://t.me/TamilPrime_LinkZz
 
 <b>DEVS:</b>
 - <a href=https://t.me/TeamEvamaria>Team Eva Maria</a>"""
