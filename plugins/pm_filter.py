@@ -400,8 +400,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('🔍 Search Movies', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('🎞 Main Channel', url='https://t.me/KaipullaVadiveluOffl'),
-            InlineKeyboardButton('Request Group 🔗', url='https://t.me/TamilMovies_Zone')
+            InlineKeyboardButton('🎞 Main Channel', url='https://t.me/TamilPrime_LinkZz'),
+            InlineKeyboardButton('Request Group 🔗', url='https://t.me/PrimeMovies_Req')
             ],[
             InlineKeyboardButton('About Meh 📬', callback_data='about')
         ]]
@@ -430,7 +430,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons= [[
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/KaipullaVadiveluOffl'),
+            InlineKeyboardButton('🤖 Updates', url='https://t.me/TamilPrime_LinkZz'),
             InlineKeyboardButton('♥️ Source', callback_data='source')
             ],[
             InlineKeyboardButton('🏠 Home', callback_data='start'),
@@ -641,7 +641,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"**Mᴏᴠɪᴇ Nᴀᴍᴇ 🎞️** : ​`{search}`\n\n**🔗 Join : @TamilMovies_Zone 🔗**"
+        cap = f"**Mᴏᴠɪᴇ Nᴀᴍᴇ 🎞️** : ​`{search}`\n\n**🔗 Join : @PrimeMovies_Req 🔗**"
     if imdb and imdb.get('poster'):
         try:
             await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024], reply_markup=InlineKeyboardMarkup(btn))
